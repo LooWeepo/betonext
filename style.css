@@ -1,0 +1,563 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background-image {
+    background-image: url(./img/background-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.test {
+    background-color: #FFFFFF !important;
+}
+
+.navbar-content {
+    background: transparent !important;
+    height: 129px;
+    backdrop-filter: blur(50px);
+}
+
+.navbar {
+    padding-inline: 30px;
+    /* position: fixed !important;
+    z-index: 9999; */
+}
+
+.navbar-content a {
+    font-size: 20px;
+    color: #FFFFFF !important;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 0 !important;
+}
+
+.navbar-logo::after {
+    content: '';
+    cursor: none;
+    background: #00345B;
+    display: inline-block;
+    opacity: 0.06;
+    border-radius: 12px;
+    width: 2px;
+    height: 57px;
+    margin: 0 54px;
+}
+
+.navbar-give {
+    background-color: #EF6E5D;
+    box-shadow: -10px 0 0 #EF6E5D, 10px 0 0 #EF6E5D;
+    border-radius: 30px;
+}
+
+.navbar-link-gap {
+    gap: 50px;
+}
+
+.head-text {
+    margin-left: 200px;
+    color: #FFFFFF;
+}
+
+.head-text h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.head-text h1 {
+    font-size: 82px;
+    width: 395px;
+    line-height: 86px;
+}
+
+.head-text p {
+    line-height: 36px;
+    font-size: 24px;
+    opacity: 72%;
+    width: 506px;
+}
+
+.catalog-content {
+    margin-left: 230px;
+    margin-top: 54px;
+}
+
+.catalog-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #EF6E5D;
+    box-shadow: -15px 0 0 10px #EF6E5D, 15px 0 0 10px #EF6E5D;
+    border-radius: 30px;
+    font-size: 22px;
+}
+
+.cards {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background: #F0F3F5 !important;
+    border-radius: 18px !important;
+    width: 472px;
+    height: 524px;
+}
+
+.card-img img {
+    width: 472px;
+    height: 262px;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.card-icon-bg {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    background-color: #F0F3F5;
+}
+
+.card-text {
+    text-align: center;
+    padding: 0 77px;
+}
+
+.card-text h3 {
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.card-text p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.our-company {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.our-company h5 {
+    margin-bottom: 25px;
+}
+
+.logos-company {
+    display: flex;
+    justify-content: space-around;
+}
+
+.for-business {
+    margin-top: 150px;
+    text-align: center;
+    padding: 0 550px;
+}
+
+.for-business h2 {
+    font-size: 42px;
+    color: #111111;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+.for-business span {
+    color: #EF6E5D;
+}
+
+.for-business p {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    opacity: 0.52;
+}
+
+.busines-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px;
+}
+
+.b-cards__card-1, .b-cards__card-2, .b-cards__card-3 {
+    width: 485px;
+    height: 666px;
+    color: #FFF;
+    margin-bottom: 150px;
+}
+
+.b-cards-gradient {
+    background: linear-gradient(180deg, #00345B 8.48%, rgba(0, 52, 91, 0) 80.63%);
+    border-radius: 18px;
+    height: 666px;
+    padding: 30px 30px;
+}
+
+.b-cards__card-1 {
+    background-image: url(./img/b-cards__card-1.png);
+}
+
+.b-cards__card-2 {
+    background-image: url(./img/b-cards__card-2.png);
+}
+
+.b-cards__card-3 {
+    background-image: url(./img/b-cards__card-3.png);
+}
+
+.b-cards__text {
+    font-size: 18px;
+    background-color: #EF6E5D;
+    box-shadow: -10px 0 0 #EF6E5D, 10px 0 0 #EF6E5D;
+    border-radius: 17px;
+    height: 34px;
+    width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.b-cards__text-2 {
+    font-size: 35px;
+    line-height: 44px;
+}
+
+.b-cards__text-3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 18px;
+}
+
+.aspects__text {
+    padding: 0 650px;
+}
+
+.aspects__text span {
+    color: #EF6E5D;
+}
+
+.aspects__text h2 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.aspects__text p {
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.54;
+    margin-top: 18px;
+}
+
+.aspects-block {
+    display: flex;
+    justify-content: center;
+}
+
+.ab-beton .ab-beton-block {
+    width: 654px;
+    height: 567px;
+}
+
+.ab-beton-left {
+    position: absolute;
+}
+
+.we__products {
+    background-color: #F4F5F6;
+    margin: 0 136px;
+    border-radius: 36px;
+    padding: 54px 60px 60px 60px;
+    margin-bottom: 160px;
+}
+
+.we__prosucts-text {
+    text-align: center;
+}
+
+.we__prosucts-text h2 {
+    font-size: 42px;
+    line-height: 51px;
+    margin-bottom: 18px;
+}
+
+.we__prosucts-text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111111;
+    opacity: 0.54;
+    margin-bottom: 60px;
+}
+
+.we__products-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+}
+
+.wp-card {
+    background-color: #FFFFFF;
+    width: 268px;
+    height: 424px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 48px;
+    margin-top: 30px;
+}
+
+.wp-card a {
+    text-decoration: none;
+    color: #EF6E5D;
+    border: 2px solid #EF6E5D;
+    padding: 18px 51px;
+    border-radius: 12px;
+}
+
+.wp-card-bg-img {
+    background-image: url(./img/wp-card-pliti-perekritya.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-1 {
+    background-image: url(./img/wp-card-kolodes.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-1 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-2 {
+    background-image: url(./img/wp-card-lestnica.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-2 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-3 {
+    background-image: url(./img/wp-card-lotki.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-3 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-4 {
+    background-image: url(./img/wp-card-fsblock.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-4 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-5 {
+    background-image: url(./img/wp-card-bordur.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-5 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-6 {
+    background-image: url(./img/wp-card-dorojnayaplita.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-6 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-7 {
+    background-image: url(./img/wp-card-stolbibetonnie.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-7 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-8 {
+    background-image: url(./img/wp-card-peshehodniepliti.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-8 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wp-card-bg-img-9 {
+    background-image: url(./img/wp-card-aerodromniyepliti.png);
+    width: 256px;
+    height: 298px;
+    border-radius: 18px;
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-card-bg-img-9 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
