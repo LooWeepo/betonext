@@ -9,17 +9,35 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    padding-bottom: 101px;
 }
 
-.test {
-    background-color: #FFFFFF !important;
+nav {
+    position: fixed !important;
+    z-index: 9999;
+    width: 100vw;
 }
+
 
 .navbar-content {
     background: transparent !important;
     height: 129px;
     backdrop-filter: blur(50px);
 }
+
+.test {
+    background-color: #FFFFFF !important;
+}
+
+.test .nav-link {
+    color: #111111 !important;
+    font-weight: 500;
+}
+
+.test .catalog-link {
+    color: #111111;
+}
+
 
 .navbar {
     padding-inline: 30px;
@@ -28,8 +46,8 @@
 }
 
 .navbar-content a {
-    font-size: 20px;
-    color: #FFFFFF !important;
+    /* font-size: 20px;
+    color: #FFFFFF !important; */
 }
 
 .navbar-logo {
@@ -60,8 +78,11 @@
     gap: 50px;
 }
 
+.wrapper {
+    padding-top: 171px;
+}
+
 .head-text {
-    margin-left: 200px;
     color: #FFFFFF;
 }
 
@@ -85,17 +106,15 @@
 }
 
 .catalog-content {
-    margin-left: 230px;
-    margin-top: 54px;
 }
 
 .catalog-link {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #EF6E5D;
-    box-shadow: -15px 0 0 10px #EF6E5D, 15px 0 0 10px #EF6E5D;
     border-radius: 30px;
     font-size: 22px;
+    padding: 15px 18px;
 }
 
 .cards {
