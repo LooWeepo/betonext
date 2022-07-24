@@ -286,7 +286,6 @@ nav {
     margin: 0 136px;
     border-radius: 36px;
     padding: 54px 60px 60px 60px;
-    margin-bottom: 160px;
 }
 
 .we__prosucts-text {
@@ -405,4 +404,36 @@ nav {
 
 .fake-section-img img {
     width: 100%;
+}
+
+.more-info-products {
+    padding: 172px 0;
+}
+
+.mip__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mip__text h2 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.mip__text span {
+    color: #EF6E5D;
+}
+
+.mip__text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    opacity: 0.54;
 }
