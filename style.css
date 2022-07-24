@@ -40,13 +40,6 @@ nav {
 
 .navbar {
     padding-inline: 30px;
-    /* position: fixed !important;
-    z-index: 9999; */
-}
-
-.navbar-content a {
-    /* font-size: 20px;
-    color: #FFFFFF !important; */
 }
 
 .navbar-logo {
@@ -99,8 +92,6 @@ nav {
     width: 506px;
 }
 
-.catalog-content {
-}
 
 .catalog-link {
     text-decoration: none;
@@ -265,6 +256,8 @@ nav {
 .aspects__text h2 {
     text-align: center;
     font-size: 42px;
+    max-width: 579px;
+    width: 100%;
 }
 
 .aspects__text p {
@@ -331,6 +324,7 @@ nav {
     justify-content: center;
     padding-bottom: 48px;
     margin-top: 30px;
+    border-radius: 18px;
 }
 
 .wp-card a {
@@ -403,4 +397,12 @@ nav {
 
 .wp-card-bg-img-9 {
     background-image: url(./img/wp-card-aerodromniyepliti.png);
+}
+
+.aspects {
+    padding-bottom: 171px;
+}
+
+.fake-section-img img {
+    width: 100%;
 }
