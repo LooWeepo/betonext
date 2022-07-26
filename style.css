@@ -436,4 +436,49 @@ nav {
     line-height: 29px;
     text-align: center;
     opacity: 0.54;
+    margin-bottom: 72px;
+}
+
+.mip__products button {
+    color: #111111;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.mip__products button:focus {
+    border-bottom: 3px solid #EF6E5D !important;
+}
+
+.floor-slabs-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.floor-slabs-content-text {
+    margin-top: 72px;
+}
+
+.floor-slabs-content-text h4 {
+    margin-bottom: 18px;
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 510px;
+}
+
+.floor-slabs-content-text span {
+    color: #EF6E5D;
+}
+
+.floor-slabs-content-text p {
+    font-size: 18px;
+    line-height: 36px;
+    opacity: 0.72;
+    max-width: 540px;
+}
+
+.floor-slabs-content-img img {
+    width: 763px;
+    height: 502px;
+    margin-top: 36px;
 }
