@@ -170,10 +170,18 @@ nav {
     justify-content: space-around;
 }
 
+.for-business-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .for-business {
     margin-top: 150px;
     text-align: center;
-    padding: 0 550px;
+    max-width: 718px;
+    width: 100%;
+    
 }
 
 .for-business h2 {
@@ -197,7 +205,8 @@ nav {
 .busines-cards {
     display: flex;
     justify-content: space-around;
-    padding: 0 150px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .b-cards__card-1, .b-cards__card-2, .b-cards__card-3 {
@@ -284,7 +293,6 @@ nav {
 
 .we__products {
     background-color: #F4F5F6;
-    margin: 0 136px;
     border-radius: 36px;
     padding: 54px 60px 60px 60px;
 }
@@ -311,6 +319,7 @@ nav {
 .we__products-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 42px;
 }
 
@@ -407,6 +416,10 @@ nav {
     width: 100%;
 }
 
+.fake-section-media {
+    display: none;
+}
+
 .more-info-products {
     padding: 172px 0;
 }
@@ -480,7 +493,6 @@ nav {
 
 .floor-slabs-content-img img {
     width: 763px;
-    height: 502px;
     margin-top: 36px;
 }
 
@@ -692,4 +704,51 @@ nav {
 .catalog-download__form img {
     width: 24px;
     height: 24px;
+}
+
+@media (max-width: 800px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+    .card-img img {
+        max-width: 100%;
+    }
+    .card-text {
+        margin-top: -40px;
+    }
+    .card {
+        margin-bottom: 50px;
+    }
+    .our-company {
+        overflow: scroll;
+    }
+    .for-business {
+        padding: 0;
+    }
+    .b-cards__card-1, .b-cards__card-2, .b-cards__card-3 {
+        margin-bottom: 20px;
+    }
+    .fake-section-img {
+        display: none;
+    }
+    .fake-section-media {
+        display: block;
+        width: 100%;
+    }
+    .fake-section-media img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .floor-slabs-content-img img {
+        width: 100%;
+    }
+    .tab-content-box-pane {
+        flex-wrap: wrap;
+    }
+    .we__products {
+        padding: 0;
+    }
+    .we__products-cards {
+        gap: 20px;
+    }
 }
