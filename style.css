@@ -646,7 +646,7 @@ nav {
     margin-top: 172px;
     padding: 108px 0 0 0;
     height: 758px;
-    position: relative;
+    justify-content: flex-end;
 }
 
 .catalog-download__img {
@@ -661,8 +661,7 @@ nav {
     width: 500px;
     height: 524px;
     padding: 54px 30px 0 30px;
-    position: absolute;
-    right: 5%;
+    margin-right: 200px;
 
 }
 
@@ -707,7 +706,7 @@ nav {
 }
 
 @media (max-width: 800px) {
-    .cards {
+    .cards, .tab-content-box-pane {
         flex-wrap: wrap;
     }
     .card-img img {
@@ -719,8 +718,13 @@ nav {
     .card {
         margin-bottom: 50px;
     }
-    .our-company {
-        overflow: scroll;
+    .logos-company {
+        width: 100%;
+        overflow-x: scroll;
+        gap: 15px;
+    }
+    .lc__first-logo {
+        margin-left: 250px;
     }
     .for-business {
         padding: 0;
@@ -742,13 +746,16 @@ nav {
     .floor-slabs-content-img img {
         width: 100%;
     }
-    .tab-content-box-pane {
-        flex-wrap: wrap;
-    }
     .we__products {
         padding: 0;
     }
     .we__products-cards {
         gap: 20px;
+    }
+    .oc__info-box .info-1, .info-2, .catalog-download {
+        justify-content: center;
+    }
+    .catalog-download__form {
+        margin: 0;
     }
 }
