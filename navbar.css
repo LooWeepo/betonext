@@ -1,10 +1,16 @@
 .nav {
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(30px);
-    padding: 50px 0;
+    padding: 45px;
     position: fixed !important;
     z-index: 9999;
     width: 100vw;
+    border-bottom: 3px solid #ffffff09;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 .test {
     background-color: #FFFFFF !important;
@@ -117,4 +123,33 @@
 }
 .nav-right a:hover {
     opacity: 1;
+}
+
+@media (max-width: 800px) {
+    .nav {
+        background: #FFF;
+    }
+    .nav-item-link {
+        color: #000;
+        opacity: 1;
+    }
+    .nav-wrap {
+        padding: 0;
+    }
+    
+    .nav-right {
+        display: none;
+    }
+    .dr {
+        padding: 0;
+    }
+    .dr:hover .dropdown {
+        margin-top: 40px;
+        display: block;
+        width: 100%;
+    }
+    .dropdown-content {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
 }

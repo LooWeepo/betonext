@@ -46,7 +46,8 @@
 }
 
 .wrapper {
-    padding-top: 171px;
+    padding-top: 301px;
+    padding-left: 200px;
 }
 
 .head-text {
@@ -57,12 +58,14 @@
     text-transform: uppercase;
     font-size: 22px;
     line-height: 27px;
+    margin-bottom: 24px;
 }
 
 .head-text h1 {
     font-size: 82px;
     width: 395px;
     line-height: 86px;
+    margin-bottom: 12px;
 }
 
 .head-text p {
@@ -70,6 +73,7 @@
     font-size: 24px;
     opacity: 72%;
     width: 506px;
+    margin-bottom: 54px;
 }
 
 
@@ -179,6 +183,7 @@
     font-size: 24px;
     line-height: 30px;
     opacity: 0.52;
+    margin-bottom: 20px;
 }
 
 .busines-cards {
@@ -186,6 +191,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
 }
 
 .b-cards__card-1, .b-cards__card-2, .b-cards__card-3 {
@@ -746,6 +752,7 @@
     }
     .we__products {
         padding: 0;
+        padding-top: 10px;
     }
     .we__prosucts-text p {
         margin-bottom: 0;
@@ -763,6 +770,9 @@
     .for-business {
         margin-top: 30px;
     }
+    .for-business p {
+        margin-bottom: 0;
+    }
     .aspects {
         padding-bottom: 50px;
     }
@@ -774,5 +784,13 @@
     }
     .catalog-download {
         margin-top: 50px;
+    }
+    .wrapper {
+        padding: 0;
+        padding-top: 160px;
+    }
+    .head-text {
+        padding-top: 130px;
+        padding-left: 30px;
     }
 }
