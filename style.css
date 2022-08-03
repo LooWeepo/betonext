@@ -399,6 +399,10 @@
     padding-bottom: 171px;
 }
 
+.fake-section-img {
+    padding: 0 200px;
+}
+
 .fake-section-img img {
     width: 100%;
 }
@@ -692,7 +696,14 @@
     height: 24px;
 }
 
+.ass {
+    width: 38px;
+}
+
 @media (max-width: 800px) {
+    .ass {
+        width: auto;
+    }
     .navbar-collapse {
         background: rgba(255, 255, 255, 0.01);
         backdrop-filter: blur(30px);
@@ -792,5 +803,14 @@
     .head-text {
         padding-top: 130px;
         padding-left: 30px;
+    }
+    .order-concrete__form, .catalog-download__form {
+        max-width: 100%;
+    }
+    .order-concrete__form input, .catalog-download__form input {
+        width: 100%;
+    }
+    .order-concrete__form button, .catalog-download__form button {
+        width: 100%;
     }
 }

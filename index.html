@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="hamburger-style">
+    <link rel="stylesheet" href="hamburger-style.css">
+    <link rel="stylesheet" href="nav-tabs.css">
     <title>Document</title>
   </head>
 
@@ -18,16 +19,16 @@
             <div class="nav-logo">
               <a href="#"><img src="./img/logo.png" alt=""></a>
             </div>
-            <!-- <div class="hamburger-menu"> -->
-              <!-- <input id="menu__toggle" type="checkbox" />
+            <div class="hamburger-menu">
+              <input id="menu__toggle" type="checkbox" />
               <label class="menu__btn" for="menu__toggle">
                 <span></span>
-              </label> -->
+              </label>
             <ul class="nav-items menu__box">
               <li class="nav-links">
                 <a class="nav-item-link menu__item" href="">Главная</a>
               </li>
-              <li class="nav-links">
+              <li class="nav-links ass">
                 <a class="nav-item-link menu__item" href="">О нас</a>
               </li>
               <li class="nav-links dr">
@@ -79,7 +80,7 @@
                 <a class="nav-item-link menu__item" href="">Контакты</a>
               </li>
             </ul>
-            <!-- </div> -->
+            </div>
           </div>
           <div class="nav-right">
             <a href="">Получить каталог</a>
@@ -294,14 +295,28 @@
       </div>
     </div>
     <div class="more-info-products">
-      <div class="container-fluid">
-        <div class="row">
           <div class="mip__text">
             <h2>Подробнее о нашей <span>продукции</span></h2>
             <p>Информация о продуктах, которые мы производим</p>
           </div>
-        </div>
-      </div>
+          <div class="nav-tabs__wrapper">
+            <div class="nav-tabs__buttonWrapper">
+              <button class="tab-button active" data-id="floor-slabs">Плиты перекрытия</button>
+              <button class="tab-button" data-id="well">Колодец</button>
+              <button class="tab-button" data-id="stairs">Лестница</button>
+            </div>
+            <div class="nav-tabs__contentWrapper">
+              <div class="contentWrapper__info">
+                <div class="contentWrapper__text">
+                  <h4 class="content active">Особенности <span>перекрыточных плит,</span> которые мы производим</h4>
+                  <p class="content active">Плиты перекрытий предназначены для возведения несущих перекрытий в сооружениях различного типа, прокладывания теплотрасс и тоннелей. Изготавливаются двух основных видов: монолитными и с наличием. Они производятся опалубочным и безопалубочным способами формирования, изготавливаются двух основных видов: монолитными и с наличием пустот.</p>
+                </div>
+                <div class="contentWrapper__img">
+                  <img class="content active" src="./img/floor-slabs-tab-panel.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
     <div class="order-concrete">
       <div class="order-concrete__form">
