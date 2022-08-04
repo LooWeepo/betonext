@@ -1,4 +1,4 @@
-const tabs = document.querySelector(".wrapper");
+const tabs = document.querySelector(".nav-tabs__wrapper");
 const tabButton = document.querySelectorAll(".tab-button");
 const contents = document.querySelectorAll(".content");
 
