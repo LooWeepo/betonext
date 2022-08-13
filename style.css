@@ -700,6 +700,427 @@
     width: 38px;
 }
 
+.our-galery-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-gallery {
+    margin-top: 172px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.our-gallery span {
+    color: #EF6E5D;
+}
+
+.our-gallery__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    opacity: 0.54;
+}
+
+.our-gallery__images {
+    margin: 54px 300px 0;
+}
+
+.our-gallery__first-div {
+    display: flex;
+}
+
+.our-gallery__second-div {
+    display: flex;
+    margin-top: 35px;
+}
+
+.our-gallery__five-eight {
+    margin-left: 36px;
+}
+
+.our-gallery-two_and_three {
+    margin-left: 36px;
+}
+
+.our-gallery-one {
+    width: 740px;
+    height: 753px;
+}
+
+.our-gallery-two {
+    width: 544px;
+    height: 409px;
+}
+
+.our-gallery-three {
+    margin-top: 35px;
+    width: 544px;
+    height: 309px;
+}
+
+.our-gallery-four {
+    width: 642px;
+    height: 723px;
+}
+
+.our-gallery-five {
+    width: 642px;
+    height: 590px;
+}
+
+.our-gallery-six {
+    margin-top: 36px;
+    width: 642px;
+    height: 702px;
+}
+
+.our-gallery-seven {
+    margin-top: 36px;
+    width: 642px;
+    height: 400px;
+}
+
+.our-gallery-eight {
+    margin-top: 36px;
+    width: 642px;
+    height: 399px;
+}
+
+.we-in-numbers {
+    margin-top: 172px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.we-in-numbers span {
+    color: #EF6E5D;
+}
+
+.we-in-numbers__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    opacity: 0.54;
+}
+
+.we-in-numbers__div-first {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.we-in-numbers__div-first p {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    color: #111111;
+    margin-top: 60px;
+}
+
+.we-in-numbers__div-second {
+    display: flex;
+    margin-top: 54px;
+    justify-content: space-around;
+}
+
+.we-in-numbers__2000m-first {
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+}
+
+.we-in-numbers__50-teams-first {
+    margin-left: 144px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+}
+
+.we-in-numbers__8-years-first {
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+}
+
+.we-in-numbers__50-clients-first {
+    margin-left: 154px;
+    margin-left: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+}
+
+.we-in-numbers__2000m-first-paragraph {
+    margin-top: 54px;
+}
+
+.we-in-numbers__50-teams-first-paragraph {
+    width: 300px;
+    margin-top: 54px;
+}
+
+.we-in-numbers__8-years-first-paragraph {
+    width: 132px;
+    margin-top: 54px;
+}
+
+.we-in-numbers__50-clients-first-paragraph {
+    width: 326px;
+    margin-top: 54px;
+}
+
+.we-in-numbers__div-second h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #111111;
+}
+
+.we-in-numbers__div-second p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111111;
+    opacity: 0.54;
+    max-width: 300px;
+    width: 100%;
+}
+
+.we-in-numbers__2000m-second-paragraph {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 200px;
+    opacity: 0.54;
+}
+
+.we-in-numbers__50-teams-second-paragraph {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 266px;
+    opacity: 0.54;
+}
+
+.we-in-numbers__8-years-second-paragraph {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 191px;
+    opacity: 0.54;
+}
+
+.we-in-numbers__50-clients-second-paragraph {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 188px;
+    opacity: 0.54;
+}
+
+.we-in-numbers__2000m-second {
+    margin-left: 100px;
+}
+
+.we-in-numbers__50-teams-second {
+    margin-left: 92px;
+}
+
+.we-in-numbers__8-years-second {
+    margin-left: 90px;
+}
+
+.we-in-numbers__50-clients-second {
+    margin-left: 134px;
+}
+
+.map {
+    display: flex;
+    background-image: url(./img/Rectangle\ 85.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 172px;
+    height: 815px;
+    position: relative;
+}
+
+.contact-us {
+    margin: 54px 0px 0px 182px;
+    width: 496px;
+    height: 707px;
+    background: #FFFFFF;
+    box-shadow: 6px 24px 36px rgba(23, 44, 64, 0.06);
+    border-radius: 18px;
+}
+
+.contact-us__div {
+    display: flex;
+    margin: 54px 88px 0px 72px;
+}
+
+.contact-us__img {
+    margin: 29px 36px 0px 0px;
+}
+
+.contact-us__h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+}
+
+.contact-us__paragraph {
+    margin-top: 24px;
+    width: 220px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    opacity: 0.54;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 172px;
+}
+
+.footer__ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__ul a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.footer__your-telephon-number {
+    width: 502px;
+    height: 234px;
+    background: #F4F5F6;
+    border-radius: 24px;
+}
+
+.footer__lyn {
+    padding: 30px 0 0 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.search {
+    margin: 30px 0 0 40px;
+    width: 384px;
+    border: none;
+    background-color: white;
+    border-radius: 12px;
+    padding: 6px 0 6px 24px;
+}
+
+.footer__your-telephon-number input {
+    border: none;
+    outline: none;
+}
+
+.search_button {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 148px;
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    background: #EF6E5D;
+}
+
+.footer__input::placeholder {
+    opacity: 0.46;
+}
+
+.footer__we-answer-you {
+    margin: 24px 0 0 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.54;
+}
+
+.footer__content h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    opacity: 0.54;
+    margin-bottom: 45px;
+}
+
+.footer__ul a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.footer__item a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #EF6E5D;
+}
+
+.hr-box {
+    margin-top: 54px;
+    margin-bottom: 30px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-bottom: 54px;
+}
+
+.footer-copyright p {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    opacity: 0.54;
+}
+
 @media (max-width: 800px) {
     .ass {
         width: auto;
@@ -812,5 +1233,51 @@
     }
     .order-concrete__form button, .catalog-download__form button {
         width: 100%;
+    }
+    .our-galery-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .our-gallery__first-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-gallery__second-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-gallery-two, .our-gallery-five {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .our-gallery-two_and_three, .our-gallery__five-eight {
+        margin-left: 0;
+    }
+    .our-gallery-three, .our-gallery-four, .our-gallery-six, .our-gallery-seven, .our-gallery-eight {
+        width: 100%;
+        height: auto;
+    }
+    .we-in-numbers__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .we-in-numbers__div-first {
+        display: flex;
+        flex-direction: column;
+    }
+    .we-in-numbers__div-second {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
     }
 }
